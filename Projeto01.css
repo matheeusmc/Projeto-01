@@ -117,11 +117,6 @@ border-radius: 8px;
 }
 
 
-footer {
-    padding: 15px;
-    background-color: rgb(238, 238, 238);
-
-}
 
 header nav ul{
     display: flex;
@@ -154,6 +149,7 @@ footer ul li{
         
 
 footer {
-    padding: 30px;
-    background-color: #0a4e46;
+    padding: 10px;
+    background-color: #e7eeed;
+    text-align: center;
 }

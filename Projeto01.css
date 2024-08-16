@@ -5,14 +5,65 @@
     font-style: none;
 }
 
-.section-02{
-    background-color: aqua;
-    padding: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+
+    padding: 15px;
+
+    background-color: aquamarine;
+
     display: flex;
-    justify-content: space-evenly;
+
+    justify-content: space-around;
+
     align-items: center;
+}
+
+header img {
+
+    width: 100px;
+
+    height: auto;
+}
+
+.section-01 {
+
+    background-color: antiquewhite;
+
+    background-image: url(Imagens/125035-colecao-de-hooligans-do-vetor.jpg);
+
+    padding: 250px;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.section-02 {
+
+    background-color: #0a4e46;
+
+    background-color: #0a4e46;
+
+    padding: 250px;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+
 }
 
 .section-02 img{
@@ -20,15 +71,84 @@
     height: auto;
 }
 
-header div {
-    padding: 15px;
-    background-color: brown;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+.section-03 {
+
+    background-image: url(Imagens/Hooligans03.png);
+
+    background-attachment: fixed;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     
+
+}
+
+.section-02 h2{
+    color: burlywood;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.section-02 p{
+    color: aqua;
+    font-size: 15px;
+    margin: 25px;
+}
+
+.section-03 p{
+    color: rgb(241, 10, 10);
+    font-size: 25px;
+    margin: 25px;
+    font-weight: 900;
+}
+
+.section-03 h2{
+    margin: 20px;
+}
+
+.section-01 button{
+width: 150px;
+height: 40px;
+background-color:rgba(255, 255, 255, 0);
+border-radius: 8px;
 }
 
 
+footer {
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
 
-    
+}
+
+header nav ul{
+    display: flex;
+    /* tornamos nossa lista não ordenada em (flex) deixando os itens pertencentes a ela lado a lado */
+
+}
+
+/* Chamamos nossa lista (Li) para estilização */
+header nav ul li{
+    list-style: none;
+    /* Estilo de lista desabilitado */
+    margin-right: 10px;
+    /* Espaçamento entre as (li) */
+}
+
+/* Aqui chamamos nossa ancora (a) para estilização */
+header nav ul li a{
+    text-decoration: none;
+    /* Decoração do texto (Sublinhado) Desabilitado (none) */
+    color: antiquewhite;
+    /* Cor da letra */
+}
+
+footer ul li{
+    list-style: none;
+    margin-right: 10px;
+    text-align: center;
+  
+}
+        

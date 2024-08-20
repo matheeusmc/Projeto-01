@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: playfair-display;
     font-style: none;
 }
 
@@ -117,6 +117,15 @@ border-radius: 8px;
 }
 
 
+.section-01 button:hover{
+    color: blue;
+    transition: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: #0a4e46;
+}
+
+
 
 header nav ul{
     display: flex;
@@ -130,7 +139,17 @@ header nav ul li{
     /* Estilo de lista desabilitado */
     margin-right: 10px;
     /* Espaçamento entre as (li) */
+
 }
+
+header nav ul li:hover{
+color: burlywood;
+transition: 0.8;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+
+}
+
 
 /* Aqui chamamos nossa ancora (a) para estilização */
 header nav ul li a{
@@ -152,4 +171,71 @@ footer {
     padding: 10px;
     background-color: #e7eeed;
     text-align: center;
+}
+
+
+footer ul li:hover{
+    color: cornflowerblue;
+    transition: 0.8;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilizamos o icone */
+header i {
+    color: rgb(10, 10, 10);
+    /* cores do icone */
+    font-size: 40px;
+    /* Tamanho do icone */
+    padding: 20px;
+    /* Respiro/Preenchimento da cor de fundo */
+    border-radius: 10px;
+    /* Arredondamento da caixa */
+    background-color: antiquewhite;
+    /* Cor de fundo do elemento  */
+}
+
+/* Aplicando o efeito ao passar o mouse */
+header i:hover{
+    background-color: azure;
+    /* Cor de fundo alterada */
+    transition: 0.8;
+    /* Transição do elemento */
+}
+
+/* Estilização tela 2 */
+
+
+.section-tela2 {
+    background-image: url(Imagens/Park.jpg);
+    padding: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section-tela2 p {
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.452);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.section-tela2 span {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.section-nova {
+    background-color: darkslategrey;
+    padding: 50px;
+    
+}
+
+.section-atual {
+    background-color: blue;
+    padding: 50px;
 }

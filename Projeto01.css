@@ -230,7 +230,7 @@ header i:hover{
 }
 
 .section-nova {
-    background-color: darkslategrey;
+    background: linear-gradient(180deg,#910142 8.33%, #130568 100%);
     padding: 50px;
     
 }
@@ -238,4 +238,139 @@ header i:hover{
 .section-atual {
     background-color: blue;
     padding: 50px;
+}
+
+/* Div pai Dentro dele existe 3 caixas */
+.div-pai {
+    display: flex;
+    /* Tornando os itens flex, deixando as caixas lado a lado */
+    justify-content: center;
+    /* Justificando os itens ao centro */
+    margin-bottom: 20px;
+}
+
+/* Estilização das caixas (Div filho) */
+.div-pai div {
+    width: 200px;
+    /* Largura da caixa */
+    height: 280px;
+    /* Altura da caixa */
+    background-color: deeppink;
+    /* Cor de fundo da caixa */
+    margin-right: 20px;
+    /* Espaçamento entre as caixas (Div) */
+    border-radius: 10px;
+    /* Arredonda as pontas das caixas */
+    
+}
+
+.div-pai2 {
+    display: flex;
+    /* Tornando os itens flex, deixando as caixas lado a lado */
+    justify-content: center;
+    /* Justificando os itens ao centro */
+}
+
+.div-pai2 div {
+    width: 200px;
+    /* Largura da caixa */
+    height: 280px;
+    /* Altura da caixa */
+    background-color: deeppink;
+    /* Cor de fundo da caixa */
+    margin-right: 20px;
+    /* Espaçamento entre as caixas (Div) */
+    border-radius: 10px;
+    /* Arredonda as pontas das caixas */
+
+}
+
+.div-filho1 {
+    background-image: url(Imagens/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho1:hover {
+    width: 210px;
+    height: 290px;
+    transition: 0.8;
+    border-radius: 10px;
+}
+
+.div-filho2 {
+    background-image: url(Imagens/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho2:hover{
+    width: 210px;
+    height: 290px;
+    transition: 0.8;
+    border-radius: 10px;
+}
+
+
+.div-filho3 {
+    background-image: url(Imagens/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho3:hover{
+    width: 210px;
+    height: 290px;
+    transition: 0.8;
+    border-radius: 10px;
+}
+
+
+.div-filho4 {
+    background-image: url(Imagens/img4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho4:hover {
+    width: 210px;
+    height: 290px;
+    transition: 0.8;
+    border-radius: 10px;
+}
+
+
+
+.div-filho5 {
+    background-image: url(Imagens/img5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho5:hover{
+    width: 210px;
+    height: 290px;
+    transition: 0.8;
+    border-radius: 10px;
+}
+
+
+
+.div-filho6 {
+    background-image: url(Imagens/img6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho6:hover {
+    width: 210px;
+    height: 290px;
+    transition: 0.8;
+    border-radius: 10px;
 }

@@ -168,7 +168,7 @@ footer ul li{
         
 
 footer {
-    padding: 10px;
+    padding: 30px;
     background-color: #e7eeed;
     text-align: center;
 }
@@ -304,6 +304,8 @@ header i:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 10px;
+    /* Margin bottom cria um espaçamento entre as img */
 }
 
 .div-filho2:hover{
@@ -373,4 +375,55 @@ header i:hover{
     height: 290px;
     transition: 0.8;
     border-radius: 10px;
+}
+
+
+.section-ultima {
+    padding: 200px;
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-titulo h2 {
+    color: antiquewhite;
+    /* color muda a cor da letra */
+    margin: 30px;
+/* Margin altera o distanciamento de textos e img */
+}
+
+
+.div-titulo p {
+    color: antiquewhite;
+    /* color muda a cor da letra */
+    margin: 30px;
+    /* Margin altera o distanciamento de textos e img */
+    font-size: 30px;
+    /* font size, altera o tamanho do texto */
+    font-weight: 300;
+    /* fonte weight, altera o peso da letra */
+
+}
+
+.div-iframe iframe {
+    border-radius: 15px;
+    /* Muda a borda do mapa (e de outras coisas tambem */
+    margin-right: 30px;
+    /* Tag usada para aumentar espaçamento entre as coisas (texto, img etc) */
+    
+}
+
+
+.rodape {
+     padding: 100px;
+     background-color: #f70a71;
+     display: flex;
+     align-items: center;
+     /* Alinha ao mesmo parametro as img */
+     justify-content: space-evenly;
+
+}
+
+.div-line img {
+    width: 70px;
 }

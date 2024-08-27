@@ -25,6 +25,13 @@ header img {
     height: auto;
 }
 
+/* Nós usamos o # para chamar a tag (id) */
+/* #dombosco{
+    
+
+} */
+
+
 .section-01 {
 
     background-color: antiquewhite;
@@ -44,6 +51,7 @@ header img {
     justify-content: center;
 
     align-items: center;
+
 
 }
 
@@ -150,12 +158,15 @@ cursor: pointer;
 
 }
 
+#parte2 {
+    text-decoration: none;
+}
 
 /* Aqui chamamos nossa ancora (a) para estilização */
 header nav ul li a{
     text-decoration: none;
     /* Decoração do texto (Sublinhado) Desabilitado (none) */
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     /* Cor da letra */
 }
 
@@ -426,4 +437,90 @@ header i:hover{
 
 .div-line img {
     width: 70px;
+
+}
+
+.div-line .line {
+    width: 70px;
+    /* Largura da linha */
+    height: 0px;
+    /* Altura da linha */
+    margin-top: 12px;
+    /* Distanciamento entre a linha e icone */
+}
+
+.div-icons a {
+    text-decoration: none;
+    /* Aqui estamos removendo o estilo padrão da ancora */
+    color: white;
+    /* Cor da ancora */
+    font-size: 35px;
+    /* Aumenta os icones de tamanho */
+}
+
+
+.div-icons a i{
+    background-color: #910142;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Acessando o icone */
+.div-icons a i:hover {
+    background-color: #9101428a;
+    
+    transition: 0.6s;
+}
+
+
+/* Estilizando o titulo do rodape */
+.div-icons h2 {
+    color: white;
+    /* Cor da letra */
+    font-size: 30px;
+    /* Tamanho da letra */
+    margin-bottom: 20px;
+    /* Margin inferior em relação o texto */
+}
+
+/* .footer.rodape2 {
+    padding: 100px;
+    background-color: #0a4e46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-line2 img {
+    width: 100px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin-top: 12px;
+
+}
+
+.div-icons2 a i{
+    background-color: #c9c8d8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div-icons2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+.div-icons2 a i:hover{
+   background-color: #c9c8d893;
+   transition: 0.6s;
+   
+   
+} */
+
+html {
+    scroll-behavior: smooth;
 }
